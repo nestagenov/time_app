@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./frontend
+  api:
+    build: ./api
+  myqsl:
+    image: myqsl
+  adminer:
+    image: adminer
